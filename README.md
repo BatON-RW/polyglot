@@ -1,7 +1,7 @@
-Scala-translate-API
+Polyglot
 ===================
 
-Scala-translate-API is a very simple API for some of the online translation APIs such as Bing Translate API or Google Translate. So far, given that the future of Google Translate is unclear, only the Bing Translate API is supported. 
+Polyglot is a very simple API for some of the online translation APIs such as Bing Translate API or Google Translate. So far, given that the future of Google Translate is unclear, only the Bing Translate API is supported. 
 
 The API is currently fully synchronous, but using the asynchronous capabilities of the Dispatch library is one of the TODO items for future releases. For the time being, please encapsulate the API calls within a simple actor to obtain asynchronous capabilities.
 
